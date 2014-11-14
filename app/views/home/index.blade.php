@@ -14,7 +14,6 @@
     @include('home.flink')
     <input type="hidden" value="" name="userid" id="userid">
     <div class="clear"></div>
-    <input type="hidden" id="resubmitToken" value="">
     <a id="backtop" title="回到顶部" rel="nofollow" style=""></a>
 </div>
 @stop
