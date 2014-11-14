@@ -1,5 +1,5 @@
 <div id="search_box">
-	<form id="searchForm" name="searchForm" action="http://www.lagou.com/jobs/list_" method="get">
+	<form id="searchForm" name="searchForm" action="/search" method="get">
         <input type="text" id="search_input" name="kd" tabindex="1" value="" placeholder="" class="ui-autocomplete-input" autocomplete="off">
         <input type="hidden" name="spc" id="spcInput" value="">
         <input type="hidden" name="pl" id="plInput" value="">
@@ -27,6 +27,6 @@
 <dl class="hotSearch">
     <dt>热门搜索：</dt>
     @foreach($hot_keys as $key)
-    <dd><a href="http://www.lagou.com/search?keyword={{$key}}">{{$key}}</a></dd>
+    <dd><a href="/search?keyword={{$key}}">{{$key}}</a></dd>
     @endforeach
 </dl>

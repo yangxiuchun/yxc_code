@@ -2,12 +2,8 @@
 
 class VoteController extends BaseController {
 
+    protected $layout = 'layouts.main';
 
-    public function __construct()
-    {
-                
-        
-    }
     
     /**
      * 获取热门投票
@@ -32,15 +28,14 @@ class VoteController extends BaseController {
 
     }
     
-    public function getDovote()
+    public function votelist()
     {
-        
-        
+        return  View::make('addvote.index');
         
     }
-    public function getIndex()
+    public function addview()
     {
-        
+        return  View::make('myvote.index');
         
     }
     public function getSearch()

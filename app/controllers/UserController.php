@@ -15,7 +15,7 @@ class UserController extends BaseController {
      * 用户登录
      * {"resubmitToken":"75ab02a27427499f8a2dabcf8db4028e","requestId":null,"code":0,"success":false,"msg":"该帐号不存在或密码错误，请重新输入","content":null}
      */
-	public function postLogin()
+	public function Login()
 	{
 		$email = Input::get('email');
         $password = Input::get('password');
@@ -41,7 +41,7 @@ class UserController extends BaseController {
      * 用户注册
      * {"requestId":null,"code":0,"success":false,"msg":"该邮箱已被注册，请重新输入或直接登录","resubmitToken":"6a76a440164f4449a21dd0716b7da413","content":null}
      */
-    public function postRegister()
+    public function Register()
     {
         $info['email'] = $email = Input::get('email');
         $info['password'] = Input::get('password');

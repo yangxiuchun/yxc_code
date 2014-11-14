@@ -1,6 +1,6 @@
 <?php
 
-class IndexController extends BaseController {
+class SearchController extends BaseController {
 
     protected $layout = 'layouts.main';
     
@@ -11,7 +11,7 @@ class IndexController extends BaseController {
 	public function Index()
 	{
 	   $hot_keys = DB::table('kk_hot_search')->lists('name');
-	   return  View::make('home.index')->with('hot_keys', $hot_keys);
+	   return  View::make('search.index')->with('hot_keys', $hot_keys);
 	}
 
 

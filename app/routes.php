@@ -15,6 +15,10 @@
 |
 */
 
-Route::controller('vote', 'VoteController');
-Route::controller('user', 'UserController');
-Route::controller('/', 'IndexController');
+Route::post('user/login', 'UserController@login');
+Route::post('user/register', 'UserController@register');
+
+Route::get('/', 'IndexController@index');
+Route::get('search', 'SearchController@index');
+Route::get('myvote', 'VoteController@votelist');
+Route::get('addvote', 'VoteController@addview');
