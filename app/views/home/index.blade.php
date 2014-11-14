@@ -4,11 +4,10 @@
 @include('comm.slider')				
 <div class="content">	
     @include('home.search')
-    <script type="text/javascript" src="http://www.lagou.com/js/search/search.min.js?v=1.5.5.6_1022"></script>			
     @include('home.banner')
     <ul class="reset hotabbing">
-        <li class="current">热门职位</li>
-    	<li>最新职位</li>
+        <li class="current">热门调查</li>
+    	<li>最新调查</li>
     </ul>
     @include('home.hotlist')
     <div class="clear"></div>
