@@ -1,28 +1,5 @@
 <div id="sidebar">
     <div class="mainNavs">
-        <div class="menu_box">
-            <div class="menu_main">
-				<h2>人物对比</h2>
-            		<a href="/votelist?c_type=101">娱乐圈</a>
-            		<a href="/votelist?c_type=102">体坛</a>
-            		<a href="/votelist?c_type=103">科技圈</a>
-                    <a href="/votelist?c_type=104">学术界</a>
-                    <a href="/votelist?c_type=105">政坛</a>
-            		<a href="/votelist?c_type=106">历史人物</a>
-                    <a href="/votelist?c_type=107">其他</a>
-            </div>
-         </div>
-         <div class="menu_box">
-            <div class="menu_main">
-				<h2>网络选举</h2>
-            		<a href="/votelist?c_type=201">校园</a>
-            		<a href="/votelist?c_type=202">公司</a>
-            		<a href="/votelist?c_type=203">社区</a>
-                    <a href="/votelist?c_type=204">政府机构</a>
-                    <a href="/votelist?c_type=205">事业单位</a>
-                    <a href="/votelist?c_type=206">其他</a>
-            </div>
-         </div>
          <div class="menu_box">
             <div class="menu_main">
 				<h2>新闻调查</h2>
@@ -37,6 +14,17 @@
         </div>
          <div class="menu_box">
             <div class="menu_main">
+				<h2>网络选举</h2>
+            		<a href="/votelist?c_type=201">校园</a>
+            		<a href="/votelist?c_type=202">公司</a>
+            		<a href="/votelist?c_type=203">社区</a>
+                    <a href="/votelist?c_type=204">政府机构</a>
+                    <a href="/votelist?c_type=205">事业单位</a>
+                    <a href="/votelist?c_type=206">其他</a>
+            </div>
+         </div>
+         <div class="menu_box">
+            <div class="menu_main">
 				<h2>喜好选择</h2>
             		<a href="/votelist?c_type=401">房产</a>
             		<a href="/votelist?c_type=402">汽车</a>
@@ -47,5 +35,17 @@
                     <a href="/votelist?c_type=407">其他</a>
             </div>
         </div>
+        <div class="menu_box">
+            <div class="menu_main">
+				<h2>人物对比</h2>
+            		<a href="/votelist?c_type=101">娱乐圈</a>
+            		<a href="/votelist?c_type=102">体坛</a>
+            		<a href="/votelist?c_type=103">科技圈</a>
+                    <a href="/votelist?c_type=104">学术界</a>
+                    <a href="/votelist?c_type=105">政坛</a>
+            		<a href="/votelist?c_type=106">历史人物</a>
+                    <a href="/votelist?c_type=107">其他</a>
+            </div>
+         </div>
 	</div>
 </div>

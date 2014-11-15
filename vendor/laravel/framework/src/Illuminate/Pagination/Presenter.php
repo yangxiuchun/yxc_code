@@ -117,9 +117,8 @@ abstract class Presenter {
 	 *
 	 * @return string
 	 */
-	protected function getPageSlider()
+	protected function getPageSlider($window=6)
 	{
-		$window = 6;
 
 		// If the current page is very close to the beginning of the page range, we will
 		// just render the beginning of the page range, followed by the last 2 of the

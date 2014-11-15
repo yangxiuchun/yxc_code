@@ -22,3 +22,6 @@ Route::get('/', 'IndexController@index');
 Route::get('search', 'SearchController@index');
 Route::get('myvote', 'VoteController@votelist');
 Route::get('addvote', 'VoteController@addview');
+Route::get('votelist', 'VoteController@typelist');
+Route::get('update', 'VoteController@update');
+Route::get('details', 'VoteController@details');

@@ -3,7 +3,7 @@
 @section('content')
 @include('comm.slider')				
 <div class="content">	
-    @include('home.search')
+    @include('comm.search')
     @include('home.banner')
     <ul class="reset hotabbing">
         <li class="current">热门调查</li>
@@ -12,7 +12,6 @@
     @include('home.hotlist')
     <div class="clear"></div>
     @include('home.flink')
-    <input type="hidden" value="" name="userid" id="userid">
     <div class="clear"></div>
     <a id="backtop" title="回到顶部" rel="nofollow" style=""></a>
 </div>
